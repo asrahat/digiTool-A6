@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro",
+    "description": "Create professional resumes in minutes with AI-powered suggestions and modern templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF & Word", "AI content suggestions", "LinkedIn integration"],
+    "img": "https://i.ibb.co.com/5xSVKt4Y/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Cover Letter AI",
+    "description": "Generate personalized, job-specific cover letters using advanced AI in seconds.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI writing assistant", "Job description matching", "Multiple tone options", "Unlimited generations", "Export to PDF"],
+    "img": "https://i.ibb.co.com/mFTfzwJX/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Bundle",
+    "description": "Complete package with Resume, Cover Letter, and LinkedIn optimization tools.",
+    "price": 89,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Full resume builder", "Cover letter generator", "LinkedIn profile optimizer", "Interview question bank", "1-year updates"],
+    "img": "https://i.ibb.co.com/Jw2BqvGn/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "JobTrack Pro",
+    "description": "Track all your job applications, follow-ups, and interview schedules in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Unlimited applications", "Smart reminders", "Status tracking", "Analytics dashboard", "Export reports"],
+    "img": "https://i.ibb.co.com/v6CZFTBn/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Master",
+    "description": "Practice with AI-powered mock interviews tailored to your target job role.",
+    "price": 19,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["AI voice & video simulation", "2000+ interview questions", "Performance analytics", "Industry-specific questions", "Unlimited practice"],
+    "img": "https://i.ibb.co.com/fG1gz6YN/shopping-cart.png"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Glow Up",
+    "description": "Optimize your LinkedIn profile to attract recruiters and land better opportunities.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI headline & summary", "Profile score checker", "Keyword optimization", "Before & after comparison", "Recruiter outreach templates"],
+    "img": "https://i.ibb.co.com/39xJH1cN/social-media.png"
+  }
+]

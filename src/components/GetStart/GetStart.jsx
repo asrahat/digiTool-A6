@@ -14,8 +14,8 @@ const GetStart = () => {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className=" shadow-xl rounded-2xl py-10 px-4">
-            <div class="flex justify-end mb-8">
-              <div class="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
+            <div className="flex justify-end mb-8">
+              <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 01
               </div>
             </div>
@@ -33,8 +33,8 @@ const GetStart = () => {
             </div>
           </div>
           <div className=" shadow-xl rounded-2xl py-10 px-4">
-            <div class="flex justify-end mb-8">
-              <div class="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
+            <div className="flex justify-end mb-8">
+              <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 02
               </div>
             </div>
@@ -51,8 +51,8 @@ const GetStart = () => {
             </div>
           </div>
           <div className=" shadow-xl rounded-2xl py-10 px-4">
-            <div class="flex justify-end mb-8">
-              <div class="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
+            <div className="flex justify-end mb-8">
+              <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 03
               </div>
             </div>
