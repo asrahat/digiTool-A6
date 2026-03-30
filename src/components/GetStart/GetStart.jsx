@@ -1,6 +1,6 @@
 import packageImg from "../../assets/package.png";
-import user from "../../assets/user.png";
-import rocket from "../../assets/rocket.png";
+import userImg from "../../assets/user.png";
+import rocketImg from "../../assets/rocket.png";
 
 const GetStart = () => {
   return (
@@ -22,7 +22,7 @@ const GetStart = () => {
             <div className="flex flex-col items-center text-center space-y-4" >
               <img
                 className="border-0 bg-[#e3dfff] rounded-full p-2"
-                src={user}
+                src={userImg}
                 alt=""
               />
               <h2 className="text-xl font-bold">Create Account</h2>
@@ -59,7 +59,7 @@ const GetStart = () => {
             <div className="flex flex-col items-center text-center space-y-4" >
               <img
                 className="border-0 bg-[#e3dfff] rounded-full p-2"
-                src={user}
+                src={rocketImg}
                 alt=""
               />
               <h2 className="text-xl font-bold">Start Creating</h2>
