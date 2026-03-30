@@ -1,7 +1,8 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
+import GetStart from "./components/GetStart/GetStart";
 import NavBar from "./components/NavBar/NavBar";
-import Stats from "./components/NavBar/Stats/Stats";
+import Stats from "./components/Stats/Stats";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar></NavBar>
       <Banner></Banner>
       <Stats></Stats>
+      <GetStart></GetStart>
     </>
   );
 }
