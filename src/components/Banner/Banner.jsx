@@ -7,10 +7,10 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={bannerImg} className=" rounded-lg shadow-2xl" />
           <div>
-            <div className="w-80">
-              <p className="bg-[#e1e7ff] p-3 font-semibold text-[#4f39f6] rounded-full">
-                New: AI-Powered Tools Available
-              </p>
+            <div class="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full text-purple-600 text-sm font-medium">
+              <span class="w-2.5 h-2.5 bg-purple-500 rounded-full"></span>
+
+              <span>New: AI-Powered Tools Available</span>
             </div>
             <h1 className="text-5xl font-bold">
               Supercharge Your <br /> Digital Workflow
@@ -35,8 +35,8 @@ const Banner = () => {
                 Explore Products
               </button>
               <button
-                className="flex items-center gap-2 px-6 py-3 text-white text-lg font-semibold rounded-full 
-    bg-linear-to-r from-purple-600 to-indigo-500 
+                className="flex items-center gap-2 bg-transparent border border-violet-500 hover:border-violet-400  text-violet-400  
+                hover:text-white hover:bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))] px-5 py-2 rounded-full font-medium text-sm tracking-wide 
     transition-all duration-300 ease-in-out 
     hover:scale-105 hover:shadow-xl 
     hover:shadow-purple-500/40
