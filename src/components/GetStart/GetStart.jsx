@@ -5,7 +5,7 @@ import rocketImg from "../../assets/rocket.png";
 const GetStart = () => {
   return (
     <div className="bg-zinc-100 py-20 mt-20">
-      <div className="container mx-auto">
+      <div className="container mx-auto space-y-6">
         <div className="text-center">
           <h2 className="text-5xl font-bold">Get Started in 3 Steps</h2>
           <p className="text-zinc-500 font-semibold mt-3">
@@ -13,7 +13,12 @@ const GetStart = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className=" shadow-xl rounded-2xl py-10 px-4">
+          <div className="transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeIn shadow-xl rounded-2xl py-10 px-4">
             <div className="flex justify-end mb-8">
               <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 01
@@ -32,7 +37,12 @@ const GetStart = () => {
               </p>
             </div>
           </div>
-          <div className=" shadow-xl rounded-2xl py-10 px-4">
+          <div className="transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeIn shadow-xl rounded-2xl py-10 px-4">
             <div className="flex justify-end mb-8">
               <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 02
@@ -50,7 +60,12 @@ const GetStart = () => {
               </p>
             </div>
           </div>
-          <div className=" shadow-xl rounded-2xl py-10 px-4">
+          <div className="transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeIn shadow-xl rounded-2xl py-10 px-4">
             <div className="flex justify-end mb-8">
               <div className="bg-purple-600 text-white text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center">
                 03

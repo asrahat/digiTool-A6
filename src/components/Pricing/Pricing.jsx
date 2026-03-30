@@ -10,7 +10,17 @@ const Pricing = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
-        <div className="card bg-base-200 shadow-2xl">
+        <div
+          className="card bg-base-200
+              px-8 
+              shadow-lg 
+              transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeInl"
+        >
           <div className="card-body flex flex-col ">
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold">Starter</h2>
@@ -91,12 +101,15 @@ const Pricing = () => {
             </div>
             <div className="mt-6">
               <button
-                className="w-full btn px-6 py-3 text-white text-lg font-semibold rounded-full 
-    bg-linear-to-r from-purple-600 to-indigo-500 
-    transition-all duration-300 ease-in-out 
-    hover:scale-105 hover:shadow-xl 
-    hover:shadow-purple-500/40
-    active:scale-95 cursor-pointer"
+                className="w-full border-none outline-none cursor-pointer
+         px-5 py-2
+         text-[18px] font-semibold text-white
+         rounded-full
+        bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))]
+         shadow-[0_0_20px_rgba(255,60,172,0.6)]
+         transition-all duration-300 ease-in-out
+         hover:-translate-y-0.5
+         hover:shadow-[0_0_30px_rgba(255,60,172,0.9)] nav-btn"
               >
                 Get Started Free
               </button>
@@ -104,7 +117,18 @@ const Pricing = () => {
           </div>
         </div>
         {/* ------------ */}
-        <div className="relative card bg-linear-to-r from-indigo-600  to-purple-500 shadow-2xl text-white">
+        <div
+          className="relative
+        px-8 
+        transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeInl
+
+        card bg-linear-to-r from-indigo-600  to-purple-500 shadow-2xl text-white"
+        >
           <div className="card-body flex flex-col">
             <span
               className="absolute left-40 -top-2 p-3 text-sm rounded-full text-white
@@ -240,7 +264,18 @@ const Pricing = () => {
           </div>
         </div>
         {/* ------------ */}
-        <div className="card bg-base-200 shadow-xl">
+        <div
+          className="card rounded-2xl 
+              bg-base-200
+              px-8 
+              shadow-lg 
+              transform 
+         transition-all
+         duration-500
+         hover:shadow-[0_0_40px_rgba(160,90,260,0.3)]
+         hover:-translate-y-2
+         animate-fadeIn"
+        >
           <div className="card-body flex flex-col">
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold">Enterprise</h2>
@@ -355,12 +390,15 @@ const Pricing = () => {
             </div>
             <div className="mt-6">
               <button
-                className="w-full btn px-6 py-3 text-white text-lg font-semibold rounded-full 
-    bg-linear-to-r from-purple-600 to-indigo-500 
-    transition-all duration-300 ease-in-out 
-    hover:scale-105 hover:shadow-xl 
-    hover:shadow-purple-500/40
-    active:scale-95 cursor-pointer"
+                className="w-full border-none outline-none cursor-pointer
+         px-5 py-2
+         text-[18px] font-semibold text-white
+         rounded-full
+        bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))]
+         shadow-[0_0_20px_rgba(255,60,172,0.6)]
+         transition-all duration-300 ease-in-out
+         hover:-translate-y-0.5
+         hover:shadow-[0_0_30px_rgba(255,60,172,0.9)] nav-btn"
               >
                 Contact Sales
               </button>

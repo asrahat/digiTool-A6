@@ -1,7 +1,7 @@
 import { ShoppingCart } from "lucide-react";
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
   return (
     <div className="navbar container mx-auto">
       <div className="navbar-start">
@@ -67,16 +67,24 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end gap-4">
-        <ShoppingCart />
+      <div className="navbar-end gap-6">
+        <div className="relative -top-5">
+          <p className="relative left-3 top-2 bg-red-500 px-2 rounded-full text-center text-white">
+            {carts.length}
+          </p>
+          <ShoppingCart className="absolute" />
+        </div>
         <a className="text-lg font-semibold">login</a>
         <a
-          className="px-6 py-3 text-white text-lg font-semibold rounded-full 
-    bg-linear-to-r from-purple-600 to-indigo-500 
-    transition-all duration-300 ease-in-out 
-    hover:scale-105 hover:shadow-xl 
-    hover:shadow-purple-500/40
-    active:scale-95 cursor-pointer"
+          className="border-none outline-none cursor-pointer
+         px-5 py-2
+         text-[18px] font-semibold text-white
+         rounded-full
+        bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))]
+         shadow-[0_0_20px_rgba(255,60,172,0.6)]
+         transition-all duration-300 ease-in-out
+         hover:-translate-y-0.5
+         hover:shadow-[0_0_30px_rgba(255,60,172,0.9)] nav-btn"
         >
           Get Started
         </a>

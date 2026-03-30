@@ -22,7 +22,7 @@ function App() {
   const [carts,setCarts] = useState([])
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar carts={carts}></NavBar>
       <Banner></Banner>
       <Stats></Stats>
 {/* ----------------------------------------------------------- */}

@@ -22,12 +22,15 @@ const Banner = () => {
             </p>
             <div className="flex items-center gap-4">
               <button
-                className="px-6 py-3 text-white text-lg font-semibold rounded-full 
-    bg-linear-to-r from-purple-600 to-indigo-500 
-    transition-all duration-300 ease-in-out 
-    hover:scale-105 hover:shadow-xl 
-    hover:shadow-purple-500/40
-    active:scale-95 cursor-pointer"
+                className="border-none outline-none cursor-pointer
+         px-5 py-2
+         text-[18px] font-semibold text-white
+         rounded-full
+        bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))]
+         shadow-[0_0_20px_rgba(255,60,172,0.6)]
+         transition-all duration-300 ease-in-out
+         hover:-translate-y-0.5
+         hover:shadow-[0_0_30px_rgba(255,60,172,0.9)] nav-btn"
               >
                 Explore Products
               </button>
