@@ -1,16 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# DigiToold
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Digital Tools Buying Website
 
-## React Compiler
+DigiToold is a modern and responsive digital tools marketplace where users can explore, compare, and purchase various digital products such as templates, tools, and services. The platform provides a smooth shopping experience with dynamic cart functionality, clean UI, and real-time feedback using notifications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Description
 
-## Expanding the ESLint configuration
+DigiToold is designed to simplify the process of discovering and purchasing digital tools. It features a clean UI, interactive product cards, and a fully functional cart system. Users can easily toggle between products and cart view, add or remove items, and complete checkout smoothly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* HTML
+* CSS
+* Tailwind CSS
+* DaisyUI
+* React JS
+* Lucide Icons
+* React Toastify
+
+---
+
+## Features
+
+### Dynamic Cart System
+
+* Add products to cart
+* Remove individual products
+* Clear all items using checkout
+* Real-time cart count in navbar
+
+### Toggle View (Products & Cart)
+
+* Switch between Product section and Cart section
+* Default view shows products
+* Cart displays empty state when no items selected
+
+### Smart Notifications
+
+* Toast alerts for:
+
+  * Adding product
+  * Removing product
+  * Checkout action
+* Implemented using React Toastify
+
+## Responsive Design
+
+Fully optimized for:
+
+* Mobile Devices
+* Desktop
+* Tablets
+
