@@ -74,11 +74,11 @@ const NavBar = ({ carts }) => {
           </p>
           <ShoppingCart className="absolute" />
         </div>
-        <a className="text-lg font-semibold">login</a>
+        <a className=" text-sm md:text-lg font-semibold">login</a>
         <a
           className="border-none outline-none cursor-pointer
-         px-5 py-2
-         text-[18px] font-semibold text-white
+         px-3 md:px-5 py-2 text-sm
+         md:text-xl font-semibold text-white
          rounded-full
         bg-[linear-gradient(90deg,rgba(255,60,172,1),rgba(120,75,160,1),rgba(43,134,197,1))]
          shadow-[0_0_20px_rgba(255,60,172,0.6)]

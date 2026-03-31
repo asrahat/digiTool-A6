@@ -1,10 +1,12 @@
 
 
-# DigiToold
+# DigiTool
 
 ### Digital Tools Buying Website
 
 DigiToold is a modern and responsive digital tools marketplace where users can explore, compare, and purchase various digital products such as templates, tools, and services. The platform provides a smooth shopping experience with dynamic cart functionality, clean UI, and real-time feedback using notifications.
+
+---
 
 ## Project Description
 

@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={bannerImg} className=" rounded-lg shadow-2xl" />
-          <div>
+          <div className="">
             <div class="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full text-purple-600 text-sm font-medium">
               <span class="w-2.5 h-2.5 bg-purple-500 rounded-full"></span>
 
@@ -20,7 +20,7 @@ const Banner = () => {
               productivity software—all in one place. Start creating faster
               today. Explore Products
             </p>
-            <div className="flex items-center gap-4">
+            <div className="md:flex items-center space-y-2 gap-4">
               <button
                 className="border-none outline-none cursor-pointer
          px-5 py-2
